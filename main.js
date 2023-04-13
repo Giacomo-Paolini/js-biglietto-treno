@@ -2,7 +2,7 @@ let distanza = parseInt(prompt("Quanti km devi fare?"));
 
 let età = parseInt(prompt("Quanti anni hai?"));
 
-let prezzoViaggio = Math.round(distanza * 0.21);
+let prezzoViaggio = Math.round(distanza * 0.21).toFixed(2);
 
 if (età < 18) {
     prezzoViaggio -= prezzoViaggio / 100 * 20;

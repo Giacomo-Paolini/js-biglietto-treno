@@ -10,4 +10,4 @@ if (età < 18) {
     prezzoViaggio -= prezzoViaggio / 100 * 40;
 }
 
-document.getElementById("prezzoViaggio").innerText = prezzoViaggio + " €";
+document.getElementById("prezzoViaggio").innerText = "Il biglietto ti costa " + prezzoViaggio + "€";

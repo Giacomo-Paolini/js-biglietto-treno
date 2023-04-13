@@ -1,6 +1,6 @@
-let distanza = prompt("Quanti km devi fare?");
+let distanza = parseInt(prompt("Quanti km devi fare?"));
 
-let età = prompt("Quanti anni hai?");
+let età = parseInt(prompt("Quanti anni hai?"));
 
 let prezzoViaggio = Math.round(distanza * 0.21);
 
